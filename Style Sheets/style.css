@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+
+}
+
+body{
+
+}
+
+.container{
+    height: 100vh;
+    background: linear-gradient(to top, cornflowerblue,orangered, transparent);
+    display: grid;
+    grid-template-rows:  repeat(12,1fr);
+    grid-template-columns: repeat(12,1fr);
+}
+
+.elHeader{
+    grid-column: 1 / span 12;
+    grid-row: 1 / span 2;
+}
+
+.elNavBar{
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 12;
+}
+
+.elFooter{
+    grid-row: 12 / span 1;
+    grid-column: 1 / span 12;
+}
+
+.elAdverts{
+    grid-row: 3 / span 9;
+    grid-column: 12 / span 1;
+}
+
+.elSideNavBar{
+    /*grid-row: 12 / span 1;*/
+    grid-column: 1 / span 1;
+}
+
+.elMainBody{
+    grid-column: 2 / span 10;
+    grid-row: 3 / span 9;
+
+}
+
+.navContainer{
+    box-shadow: 0 5px 40px #9b9b92;
+}
+
+.nav{
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+}
+
+.navContainer .nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
