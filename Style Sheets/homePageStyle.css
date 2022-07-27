@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --c1:#000000;
+
+}
+
+.full-ContFl{
+    height: 100vh;
+}
+
+.navSection{
+    background: radial-gradient(ellipse at top, var(--c1) 25%, transparent),
+    radial-gradient(ellipse at bottom, var(--c1) 25%, transparent);
+
+}
+
+.mainSection{
+    align-items: center;
+    text-align: center;
+}

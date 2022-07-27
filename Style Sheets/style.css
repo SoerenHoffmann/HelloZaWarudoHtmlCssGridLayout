@@ -12,7 +12,7 @@ body{
 
 }
 
-.container{
+.container-fluid{
     height: 100vh;
     background: linear-gradient(to top, cornflowerblue,orangered, transparent);
     display: grid;
@@ -66,4 +66,9 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.heroSection{
+    text-align: center;
+
 }
